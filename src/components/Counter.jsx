@@ -45,6 +45,7 @@ const Counter = () => {
   const dispatch = useDispatch();
 
   return (
+    <>
     <div
     className="card text-center p-4 main"
   >
@@ -59,6 +60,7 @@ const Counter = () => {
       </button>
     </div>
   </div>
+  </>
   
   );
 };
